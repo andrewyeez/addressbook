@@ -18,22 +18,10 @@
   1. docker-machine create -d virtualbox docker-vm
 
 * Configure all the enviromental variables for docker
-  1. type: docker-machine env docker-vm
-  2. export all the variable and then copy and paste
-  3. eval $(docker-machine env docker-vm) to your terminal  
+  1. docker-machine env docker-vm
 
-* Database creation
+* Export all the variable and then copy and paste
+  1. eval $(docker-machine env docker-vm)  
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Finally !!!!
+  1. docker-compose up
