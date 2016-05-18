@@ -2,7 +2,7 @@
 
 [For Mac OSX]
 
-* Read this link: http://codetunes.com/2015/docker-compose/
+* Read this link: http://codetunes.com/2015/docker-compose
 
 * We will be using the terminal for this installation.
   1. pull this repo
