@@ -1,15 +1,26 @@
-== README
+== Installation Guide
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[For Mac OSX]
 
-Things you may want to cover:
+* Read this link: http://codetunes.com/2015/docker-compose/
 
-* Ruby version
+* We will be using the terminal for this installation.
+  1. pull this repo
+  2. cd to the path of repo and go into its root
 
-* System dependencies
+* Make sure you first have all the pre-requirements by checking
+  1. docker --version
+  2. docker-compose --version
+  3. docker-machine --version
+  4. VBoxManage --version
 
-* Configuration
+* Having all the pre-reqs checked, we can create the virtual machine
+  1. docker-machine create -d virtualbox docker-vm
+
+* Configure all the enviromental variables for docker
+  1. type: docker-machine env docker-vm
+  2. export all the variable and then copy and paste
+  3. eval $(docker-machine env docker-vm) to your terminal  
 
 * Database creation
 
